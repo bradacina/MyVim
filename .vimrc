@@ -12,3 +12,12 @@ Plugin 'kien/ctrlp.vim'
 call vundle#end()
 
 filetype plugin indent on
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+" set current working folder to the same folder the file i'm currently editing
+" is in
+autocmd BufEnter * lcd %:p:h 
+
