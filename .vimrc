@@ -9,6 +9,9 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-scripts/EasyGrep'
 Plugin 'kien/ctrlp.vim'
 
+Plugin 'fatih/vim-go'
+Plugin 'Valloric/YouCompleteMe'
+
 call vundle#end()
 
 filetype plugin indent on
